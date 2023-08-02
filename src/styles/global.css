@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@1&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=clash-grotesk@1&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=spline-sans-mono@1&display=swap");
+* {
+  font-family: "Clash Display", "Spline Sans Mono", "Magdelin";
+}
+body{
+  background-color: #000000;
+  color: white;
+}
+
+.font-satoshi {
+  font-family: "Satoshi" !important;
+}
+.font-clash-grotesk {
+  font-family: "Clash Grotesk" !important;
+}
